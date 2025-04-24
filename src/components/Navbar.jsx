@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
 import { Link } from "react-scroll";
-
 import { RiCloseFill } from "react-icons/ri";
 import { CgMenuMotion } from "react-icons/cg";
 
@@ -22,38 +21,38 @@ const Navbar = () => {
         <nav className="max-w-screen-xl mx-auto py-3 px-6 bg-navbg rounded-xl shadow-lg shadow-sky-600/10">
           <ul className="flex items-center gap-14">
             <li>
-              <Link to="hero" smooth spy offset={-80} className="menu-item">
-                Home
+              <Link to="home" smooth spy offset={-80} className="menu-item">
+                HOME
               </Link>
             </li>
 
             <li>
-              <Link to="skills" smooth spy offset={-80} className="menu-item">
-                Skills
+              <Link to="team" smooth spy offset={-80} className="menu-item">
+                TEAM
               </Link>
             </li>
 
             <li>
               <Link
-                to="experience"
+                to="projects"
                 smooth
                 spy
                 offset={-80}
                 className="menu-item"
               >
-                Work Experience
+                PROJECTS
               </Link>
             </li>
 
             <li>
               <Link to="about" smooth spy offset={-80} className="menu-item">
-                About
+                ABOUT US
               </Link>
             </li>
 
             <li>
               <Link to="contact" smooth spy offset={-80} className="menu-item">
-                Contact Me
+                CONTACT US
               </Link>
             </li>
           </ul>

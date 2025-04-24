@@ -1,31 +1,22 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import WorkExperience from "./components/WorkExperience";
-import AboutMe from "./components/AboutMe";
+import Home from "./components/Home";
+import Team from "./components/Team";
+import Projects from "./components/Projects";
+import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import BG_GRADIENT from "./assets/wave.png";
 
 const App = () => {
   return (
     <div className="bg-[#FFF7F7]">
-      <div
-        style={{
-          backgroundImage: `url(${BG_GRADIENT})`,
-          backgroundPosition: `50% 50%`,
-        }}
-      >
-        <Navbar />
-        <Hero />
-      </div>
-      <Skills />
-      <WorkExperience />
-      <AboutMe />
+      <Navbar />
+      <Home />
+      <Team />
+      <Projects />
+      <AboutUs />
       <Contact />
-
       <Footer />
     </div>
   );

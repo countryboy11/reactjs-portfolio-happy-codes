@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <section className="max-w-screen-xl mx-auto px-6 pb-20" id="contact">
       <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14 ">
-        Contact
+        CONTACT US
       </h5>
 
       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-16">
@@ -74,7 +74,7 @@ const ContactInfoCard = ({ icon, text }) => {
         {icon}
       </div>
 
-      <p className="text-cyan-100 text-xs md:text-sm">{text}</p>
+      <p className="text-cyan-100 text-xs md:text-center">{text}</p>
     </div>
   );
 };
