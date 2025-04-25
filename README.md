@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Website provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# React Portfolio Template
+# React Portfolio Website
 
-This is a portfolio template built with **React.js**, **Vite**, and **Tailwind CSS**. It provides a clean, modern, and responsive layout for showcasing your skills, projects, and contact information. Perfect for developers or designers looking to create an online portfolio.
+This is a portfolio website built with **React.js**, **Vite**, and **Tailwind CSS**. It provides a clean, modern, and responsive layout for showcasing your skills, projects, and contact information. Perfect for developers or designers looking to create an online portfolio.
 
 ## Features
 
